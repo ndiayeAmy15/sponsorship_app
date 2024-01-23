@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="490.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sn.dev.sponsorship_app.controllers.CandidatController">
+   <children>
+      <TableView fx:id="loadEP" layoutX="177.0" layoutY="131.0" prefHeight="335.0" prefWidth="480.0">
+        <columns>
+          <TableColumn fx:id="idC" prefWidth="112.79997253417969" text="id" />
+          <TableColumn fx:id="prenomC" minWidth="0.0" prefWidth="176.79998779296875" text="Prenom" />
+            <TableColumn fx:id="nomC" minWidth="0.0" prefWidth="190.4000244140625" text="Nom" />
+        </columns>
+      </TableView>
+      <Text layoutX="264.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="liste de mes parrains">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
